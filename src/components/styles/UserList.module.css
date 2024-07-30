@@ -1,0 +1,66 @@
+.container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table {
+  width: 150vh;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1em;
+  min-width: 600px;
+  border: 1px solid #dddddd;
+}
+
+.table thead th,
+.table tbody td {
+  padding: 12px 15px;
+  border: 1px solid #dddddd;
+  text-align: left;
+ 
+}
+
+.table thead th {
+  background-color: #f2f2f2;
+}
+
+.place{
+    background-color:  #006494;;
+    padding: 10px 10px;
+    color: white;
+    font-size: 1em;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+
+}
+.mainUser{
+    margin-top: 2vh;
+}
+.td_station{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  min-height: 210px;
+  flex-grow: 1;
+  border: none;
+
+ 
+}
+.td_station button{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 15px;
+
+}
+.btn_station_edit{
+  background-color: green;
+}
